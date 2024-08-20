@@ -762,7 +762,7 @@ html {
 }
 
 .contacto .col .info {
-    position: absolute;
+    /* position: absolute; // */
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
@@ -904,6 +904,7 @@ footer .arriba {
 
     .contacto .fila {
         display: block;
+        margin: 50px;
     }
 
     .contacto .fila .col {
