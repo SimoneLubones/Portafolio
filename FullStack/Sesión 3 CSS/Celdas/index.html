@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla con diferentes tamaños</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <style>
+    table {
+      width: 50%;
+      border: 1px solid black;
+      padding: 1px;
+    }
+
+    td {
+      text-align: left;
+      margin: 30px;
+      border: 1px solid white;
+    }
+
+    .rojo {
+      background-color: red;
+    }
+
+    .blanco {
+      background-color: white;
+    }
+    .verde {
+      background-color: green;
+    }
+    .gris {
+      background-color: grey;
+    }
+    .cafe {
+      background-color: brown;
+    }
+    .azul {
+      background-color: blue;
+    }
+    .rosado {
+      background-color: pink;
+    }
+    .amarillo {
+      background-color: yellow;
+    }
+    .naranjo {
+      background-color: orange;
+    }
+    .turquesa {
+      background-color: turquoise;
+    }
+    .purpura {
+      background-color: purple;
+    }
+    .violeta {
+      background-color: violet;
+    }
+    .negro {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  <body>
+    <table>
+      <tr>
+        <td class="rojo">ROJO</td>
+        <td class="blanco">BLANCO</td>
+        <td class="verde">VERDE</td>
+        <td class="gris">GRIS</td>
+      </tr>
+      <tr>
+        <td class="cafe" rowspan="2">CAFE</td>
+        <td class="azul">AZUL</td>
+        <td class="violeta" colspan="2">VIOLETA</td>
+      </tr>
+      <tr>
+        <td class="rosado">ROSADO</td>
+        <td class="amarillo" rowspan="2">AMARILLO</td>
+        <td class="turquesa">TURQUESA</td>
+      </tr>
+      <tr>
+        <td class="naranjo">NARANJO</td>
+        <td class="purpura">PURPURA</td>
+        <td class="negro">NEGRO</td>
+      </tr>
+    </table>
+  </body>
+</html>

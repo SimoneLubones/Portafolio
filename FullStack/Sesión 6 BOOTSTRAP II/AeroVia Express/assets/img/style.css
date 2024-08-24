@@ -1,0 +1,51 @@
+main {
+    font-family: verdana;
+}
+nav {
+    background-color: #051B54;
+}
+.navbar-brand {
+    color: white;
+    font-family: 'Gill Sans';
+}
+.nav-link {
+    color: white;
+}
+#boton {
+    background: #FFFFFF33;
+    border: #FFFFFF33;
+    border-radius: 10%;
+}
+#promocional {
+    background-color: #62DAD3;
+}
+
+img {
+    border-radius: 3%;
+}
+
+
+.form-label 
+{
+    color: #051B54;
+}
+
+.navform{
+    background-color: white;
+    color: #051B54;
+    padding: 0px 20px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 7%;
+    text-align: center;
+    text-decoration: none
+}
+
+#navegacion {
+    background-color: white;
+    border-color: white;
+}
+
+#opciones {
+    color: #051B54;
+    border-color: white;
+}
