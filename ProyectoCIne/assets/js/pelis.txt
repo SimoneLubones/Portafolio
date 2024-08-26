@@ -1,0 +1,26 @@
+
+{
+    nombre: "BEETLEJUICE, BEETLEJUICE",
+    img:"assets/img/beetlekjuice.jpg",
+    descripcion: "¡Beetlejuice ha vuelto! Después de una tragedia familiar inesperada, tres generaciones de la familia Deetz regresan a su hogar en Winter River. Aún atormentada por Beetlejuice, la vida de Lydia da un vuelco cuando su rebelde hija adolescente, Astrid, descubre el misterioso modelo de la ciudad en el ático y el portal al Más Allá se abre accidentalmente. Con problemas en ambos reinos, es solo cuestión de tiempo hasta que alguien diga el nombre de Beetlejuice tres veces y el travieso demonio regrese para desatar su propio tipo de caos."
+},
+{
+    nombre:"EXORCISMO",
+    img:"assets/img/exorcismo.jpg",
+    descripcion:"Anthony, un actor, empieza a comportarse de manera extraña durante el rodaje de una película de terror. Su hija, con quien apenas trata, empieza a preguntarse si su padre ha retomado las viejas adicciones o está ocurriendo algo sobrenatural."
+},
+{
+    nombre:"LA FORJA",
+    img:""assets/img/laforja.jpg"",
+    descripcion:"Un año después de terminar la preparatoria y sin planes para el futuro, Isaiah Wright es desafiado por su madre y un exitoso hombre de negocios a trazar un mejor rumbo para su vida. A través de las oraciones de su madre y de la Sra. Clara, y el discipulado bíblico de su nuevo mentor, Isaiah comienza a descubrir que el propósito de Dios para su vida es mucho más de lo que podía imaginar."
+},
+{
+    nombre:"EL LADRÓN DE PERROS",
+    img:""assets/img/ladronperros.jpg"",
+    descripcion:"Martín, un huérfano que trabaja como lustrabotas, decide robar el perro de su mejor cliente, un sastre solitario al que ha empezado a imaginar que es su padre."
+},
+{
+    nombre:"EL REINO DE KENSUKE",
+    img:""assets/img/reino.jpg"",
+    descripcion:"Tras emprender un viaje en barco junto a sus padres y ser arrastrado por una violenta tormenta, el joven Michael termina varado en una isla desierta luchando por sobrevivir. Pronto Michael descubrirá que no está solo y que un sinfín de aventuras le esperan en este nuevo mundo que alberga peligros y bellezas inimaginables."
+}
