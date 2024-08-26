@@ -762,12 +762,12 @@ html {
 
 .contacto .col .info {
     /* position: absolute; // */
-    top: 40%;
+    /* top: 40%; */
     background-color: #252A2E;
     padding: 20px;
     max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .contacto .col .info ul {
