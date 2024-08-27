@@ -1,25 +1,25 @@
 let menuVisible = false;
 //Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
-    if(menuVisible){
-        document.getElementById("nav").classList ="";
+function mostrarOcultarMenu() {
+    if (menuVisible) {
+        document.getElementById("nav").classList = "";
         menuVisible = false;
-    }else{
-        document.getElementById("nav").classList ="responsive";
+    } else {
+        document.getElementById("nav").classList = "responsive";
         menuVisible = true;
     }
 }
 
-function seleccionar(){
+function seleccionar() {
     //oculto el menu una vez que selecciono una opcion
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
 //Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
+function efectoHabilidades() {
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
+    if (distancia_skills >= 300) {
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
@@ -34,8 +34,22 @@ function efectoHabilidades(){
     }
 }
 
+const nombre1 = document.querySelector("#nombre1")
+const numero1 = document.querySelector("#numero1")
+const mail = document.querySelector("#mail")
+const mensaje = document.querySelector("#mensaje")
+const boton = document.querySelector("#boton")
+document.addEventListener("keyup", () => {
+    if (nombre1.value != "" && numero1.value != "" && mail.value != "" && mensaje.value != ""){
+        boton.disabled = false
+        console.log("hola")
+    }else{
+        boton.disabled = true
+    }
+})
+
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
+window.onscroll = function () {
     efectoHabilidades();
 } 

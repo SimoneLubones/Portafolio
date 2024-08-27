@@ -299,7 +299,8 @@
                         <h4>Banca En Línea</h4>
                         <span class="casa">JavaScript</span><br>
                         <button type="button" class="btn btn-outline-danger">
-                            <a target="_blank" href="./FullStack/Sesión 8 CONTROL DE FLUJO/Banca en línea/index.html">Ver más</a>
+                            <a target="_blank"
+                                href="./FullStack/Sesión 8 CONTROL DE FLUJO/Banca en línea/index.html">Ver más</a>
                         </button>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -326,18 +327,36 @@
             <h2>CONTACTO</h2>
             <div class="fila row">
                 <!-- Formulario -->
-                <div class="col my-4 col-6">
-                    <input class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Tú Nombre">
-                    <input class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Número telefónico">
-                    <input class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Dirección de correo">
-                    <input class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Tema">
-                    <textarea class="col-sm-12 col-md-6 col-xl-6" name="" id="" cols="30" rows="10"
-                        placeholder="Mensaje"></textarea>
-                    <button class="col-sm-4 col-md-4 col-xl-4">
+                <form action="#" method="get" class="col my-4 col-6">
+                    <input id="nombre1" class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Tú Nombre" required>
+                    <input id="numero1" class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Número telefónico">
+                    <input id="mail" class="col-sm-12 col-md-6 col-xl-6" type="text" placeholder="Dirección de correo" required>
+                    <textarea class="col-sm-12 col-md-6 col-xl-6" name="" id="mensaje" cols="30" rows="10"
+                        placeholder="Mensaje" required></textarea>
+                    <button disabled id="boton" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" class="col-sm-4 col-md-4 col-xl-4">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                </form>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            </div>
+                            <div class="modal-body">
+                                ¡Gracias por sus comentarios!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Mapa -->
                 <div class="container col-6 my-4 col">
                     <img src="https://i.ibb.co/bKwBQtP/Captura-de-pantalla-2024-08-24-010115.png" alt="">
